@@ -16,7 +16,7 @@ public class Customer extends Personn{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "customer_id")
-    private long id;
+    private Long id;
     @Column(nullable = false)
     private String username;
     @Column(nullable = false)
